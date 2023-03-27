@@ -6,8 +6,8 @@ body{
     width:auto;
     background-image: linear-gradient(90deg,
     #e1ecf3 10%, 
-    #000000 60%, #000000 50%);
-    color:rgb(53, 201, 53);
+    #10e79f 60%);
+    color:black;
 }
 
 footer{
