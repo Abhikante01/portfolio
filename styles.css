@@ -10,9 +10,14 @@ body{
     color:black;
 }
 
+header{
+    position: relative;
+    top:1.5em;
+}
+
 footer{
     text-align: center;
-    background-color: black;
+    background-color: rgb(144, 144, 144);
     color:white;
     padding:3px;
     position: relative;
@@ -35,26 +40,30 @@ footer{
 
 .sub_title {
     text-align: center;
-    width:80% ;
-
 }
 
 #navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
     position: relative;
-    left:35%;
+    left:70%;
     font-size: 20px;
     top:-4em;
+    
 }
 
-#navbar:hover > li > a{
+
+
+#navbar > li > a:hover{
    color:white;
    text-decoration: underline;
-   background-color: red;
-   border: 0.5px dotted black;
+   background-color: black;
+   padding:10px;
 }
 #navbar > li {
     list-style-type: none;
-    margin:0;
+    margin:0 auto;
     padding:10px;
     display: inline;
   
@@ -62,7 +71,7 @@ footer{
 
 #navbar > li > a {
     text-decoration: none;
-    color:red;
+    color:black;
 }
 
 
@@ -71,7 +80,7 @@ footer{
 }
 #button > a{
     text-decoration: none;
-    color:red;
+    color:black;
 }
 #button > a:hover{
     text-decoration: none;
@@ -82,7 +91,7 @@ footer{
     padding: 10px;
     text-decoration: none;
     color: white;
-    background-color: red;
+    background-color: black;
     text-shadow: 2px 2px 2px 2px;
 }
 
@@ -92,7 +101,7 @@ footer{
     font-style: italic;
     position: relative;
     left: -35%;
-    text-shadow: 12px 12px 12px 12px;
+    text-shadow: 1px 1px 2px black; 
     
 }
 
@@ -101,4 +110,21 @@ footer{
     left:45%;
     padding:7px
 
+}
+
+#flexbox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#flexbox > ul{
+    display: flex;
+    justify-content: space-between;
+
+    list-style-type: none;
+    width:10%;
+    margin:-8px;
+    padding: 20px;
+    font-size: 30px;
 }
